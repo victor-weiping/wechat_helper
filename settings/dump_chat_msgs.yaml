@@ -1,0 +1,18 @@
+
+# 功能：导出聊天记录, 当前所在的群或朋友
+---
+actions:
+#####################################################################
+- action: "dump_chat_msgs"
+  # 群组或好友名称
+  # name: "【侨路】大讲堂群"
+
+  # 类别：群组或好友
+  # type: "Group Chats"
+  # type: "Contacts"
+
+  # 保存数据的目录
+  folder: ".\\data\\history\\"
+
+  # 保存文件(optional), default:[name].json
+  # filename: "bri-0.json"

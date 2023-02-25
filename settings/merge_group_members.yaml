@@ -1,0 +1,19 @@
+
+# 功能：合并群组
+---
+actions:
+#####################################################################
+- action: "merge_group_members"
+  # 群成员名单所在的目录
+  folder: ".\\data\\group_members\\"
+
+  # 邀请朋友加入的群名
+  save_to: "merged.json"
+
+  # 邀请的成员名单
+  include_groups:
+  - "bri_dajiangtang.json"
+
+  # 不包括的成员名单
+  exclude_groups:
+  - "bri_79.json"

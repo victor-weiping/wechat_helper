@@ -1,0 +1,15 @@
+
+# 功能：移出群组中成员
+#
+---
+actions:
+#####################################################################
+- action: "remove_group_members"
+
+  # 保存的文件目录 (end with path delimiter)
+  folder: ".\\data\\group_members\\"
+
+  # 群组名
+  group: "【BRI】2️⃣全球公益讲座叶碧蕙"
+
+  filename: "remove_members.json"

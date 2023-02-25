@@ -1,0 +1,18 @@
+
+# 功能：从本人的聊天记录中选取最后一组内容(到出现日期为止)，转发到指定的名单
+#
+---
+actions:
+#####################################################################
+- action: "forward_msg"
+
+  # 文件目录 (end with path delimiter)
+  data_folder: ".\\data\\group_members\\"
+
+  # 转发名单的文件名
+  filename: "bri_dajiangtang.json"
+
+  type: "Contacts"
+  # type: "Group Chats"
+
+  exclude: ["BRI", "不邀请", "私人", "筹款", "拉黑", "退出"]

@@ -1,0 +1,14 @@
+# 功能：导出通讯录中的朋友信息, 保存到指定的目录
+#
+---
+actions:
+#####################################################################
+- action: "list_contacts"
+
+  # 保存的文件目录 (end with path delimiter)
+  folder: ".\\data\\group_members\\"
+
+  # 保存的文件名，图片文件将保存在以文件名加_img后缀的子目录下
+  # 例如: filename='contacts.json', 图片文件目录为contacts_img\\
+  # 图片文件名用 [id].png
+  filename: "bri_dajiangtang.json"

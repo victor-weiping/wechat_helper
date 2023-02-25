@@ -1,0 +1,22 @@
+# 功能：导出群组中成员名单
+---
+actions:
+#####################################################################
+- action: "list_group_members"
+
+  # 保存的文件目录 (end with path delimiter)
+  folder: ".\\data\\group_members\\"
+
+  # 群组名
+  # 保存的文件名，图片文件将保存在以文件名加_img后缀的子目录下
+  # 例如: filename='contacts.json, 图片文件目录为contacts_img\\
+  # 图片文件名用 [id].png
+  groups:
+    - name: "【BRI】8️⃣1️⃣欧陽飛鵬-財富"
+      meta: "bri-81-members.json"
+
+    # - name: "测试"
+    #   meta: "test.json"
+
+    # - name: "【BRI】1️⃣7️⃣全球公益張建清"
+    #   meta: "bri_17.json"
